@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 type ID int
 
 var (
@@ -7,5 +9,6 @@ var (
 )
 
 func main() {
-	println(a)
+	fmt.Printf("O tipo de a é %T\n", a)
+	fmt.Printf("O tipo de a é %v\n", a)
 }
